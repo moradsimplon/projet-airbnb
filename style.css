@@ -1,4 +1,5 @@
 * {
+
     color: #484848;
     font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -95,6 +96,7 @@ header input, header select {
 }
 
 .barre-de-recherche {
+  box-shadow: 0 2px 2px 0 ;
     border: 0.2px solid silver;
     border-radius: 4px;
     display: flex;
@@ -115,7 +117,7 @@ header select, input {
     background-color: white;
 }
 
-.nbvoyageur {
+.nbvoyageur , .Destination , .Logements {
     display: flex;
 }
 
@@ -153,3 +155,91 @@ button {
 main{
   margin: 5% 5% auto;
 }
+
+
+
+
+ figure {
+
+  display: inline-block;
+  margin: 0 auto;
+}
+.reservé div, .experience div   {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 1%;
+  width: 18%;
+  justify-content: space-between;
+}
+/*bug a regler */
+.Destination div  {
+  width: 15%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.Logements  {
+
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+.Logements div {
+
+  height: 300px;
+  margin-top: 25%;
+}
+
+/*bug a regler ci dessus*/
+.estimer{
+  margin-top: 5%;
+  justify-content: space-between;
+  display: flex;
+}
+ .estimer-revenu  {
+
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+.image {
+  display: inline-block;
+}
+.partie1{
+  font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    line-height: 36px;
+    margin: 0;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+.partie2 {
+  margin-top: 2%;
+  font-size: 19px;
+    font-weight: 300;
+    line-height: 24px;
+
+
+    padding-bottom: 0;
+    padding-top: 0;
+}
+main button {
+  background: #008489 none repeat scroll 0 0;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    min-width: 51.7771px;
+    padding: 8px 16px;
+    position: relative;
+    width: auto;
+    height: auto;
+   right: 60%;
+}
+
+
+/******************partie bas footer *******************************
+*********************************************************************/
