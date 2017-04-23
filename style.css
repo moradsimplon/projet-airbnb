@@ -1,122 +1,125 @@
 * {
-  color: #484848;
-  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
-
+    color: #484848;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 
 /* debut style partie header*/
 
-header .barreduhaut{
-  height: 16%;
-  display:flex;
+header .barreduhaut {
+    height: 16%;
+    display: flex;
 }
-header img{
-  margin-right: 60%;
-  height: 5%;
-  width: 3%;
-  margin-left: 1%;
-  margin-top: 1%;
 
+header img {
+    margin-right: 60%;
+    height: 5%;
+    width: 3%;
+    margin-left: 1%;
+    margin-top: 1%;
 }
-header .menu1{
-  width: 35%;
-  display: inline-block;
-  vertical-align: top;
-  font-size: 14px;
-  line-height: 1.43;
+
+header .menu1 {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 1.43;
 }
-.menu2{
 
-  font-size: 12px;
-  font-weight: 700;
+.menu2 {
+  margin-left: 3%;
+    margin-top: 5%;
+    font-size: 12px;
+    font-weight: 700;
 }
- a{
-   color: #484848;
-   text-decoration: none;
- }
- a:hover{
-   text-decoration: underline;
- }
 
- .menu2 :active {
-   text-decoration: underline;
-   color: #008489;
-
- }
- nav ul li  {
-
-  padding: 15px;
-  list-style: none;
-  display: inline;
-
+a {
+    color: #484848;
+    text-decoration: none;
 }
-h1{
-  position: relative;
-  left:8%;
 
-  font-size: 44px;
-  font-weight: normal;
-  line-height: 56px;
-  width: 50%;
-  margin-top: 4%
-
-
+a:hover {
+    text-decoration: underline;
 }
+
+.menu2 :active {
+    text-decoration: underline;
+    color: #008489;
+}
+
+nav ul li {
+    padding: 15px;
+    list-style: none;
+    display: inline;
+}
+
+h1 {
+    position: relative;
+    left: 8%;
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 56px;
+    width: 50%;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
 h1 strong {
-  color: #ff5a5f;
-  font-weight: bold;
-
+    color: #ff5a5f;
+    font-weight: bold;
 }
-.date, .recherche ,.nbvoyageur{
-  padding-left: 1%;
 
+.date, .recherche, .nbvoyageur {
+    padding-left: 1%;
 }
+
 header label {
-  margin-top: 1%;
-}
-header input , header select {
-  color: #767676;
-  opacity: 1;
-  font-size: 19px;
-}
-.date , .recherche {
-  box-sizing: border-box;
-  border-right: 0.2px solid silver;
-
-}
-.barre-de-recherche{
-  border: 0.2px solid silver;
-  border-radius: 4px;
-  display: flex;
-  width: 85%;
-  height: auto;
-  margin: 0 auto;
-  justify-content: space-between;
-
-}
-header section div , form{
- width : 33.3%;
-
+    margin-top: 1%;
 }
 
-header select , input{
-  width: 98%;
-height: 50px;
-border: none;
-background-color: white;
+header input, header select {
+    color: #767676;
+    opacity: 1;
+    font-size: 19px;
+}
 
+.date, .recherche {
+    box-sizing: border-box;
+    border-right: 0.2px solid silver;
+}
+
+.barre-de-recherche {
+    border: 0.2px solid silver;
+    border-radius: 4px;
+    display: flex;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+header section div, form {
+    width: 33.3%;
+}
+
+header select, input {
+    width: 98%;
+    height: 50px;
+    border: none;
+    background-color: white;
 }
 
 .nbvoyageur {
-  display: flex;
-
+    display: flex;
 }
-.selection , .grandboutton{
 
-  width: 50%;
+.selection, .grandboutton {
+    width: 50%;
 }
-button{
-  background: #ff5a5f none repeat scroll 0 0;
+
+button {
+    background: #ff5a5f none repeat scroll 0 0;
     border: 0 none;
     border-radius: 4px;
     color: #ffffff;
