@@ -96,7 +96,7 @@ header input, header select {
 }
 
 .barre-de-recherche {
-  box-shadow: 0 2px 2px 0 ;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
     border: 0.2px solid silver;
     border-radius: 4px;
     display: flex;
@@ -244,3 +244,37 @@ main button {
 
 /******************partie bas footer *******************************
 *********************************************************************/
+
+footer {
+  margin: 8% 8% auto;
+}
+.partone
+{
+display: flex;
+justify-content: space-between;
+}
+
+.partone li {
+  list-style: none;
+  color: #767676;
+}
+.partone h3 {
+  text-align: center;
+}
+.partone select{
+
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 2px;
+    color: #484848;
+    display: block;
+    font-size: 19px;
+    font-weight: 300;
+    height: auto;
+    line-height: 24px;
+    padding: 12px 40px 12px 12px;
+    width: 100%;
+}
+.Airbnb , .Découvrir , .Hébergement {
+  width: 15%;
+}
