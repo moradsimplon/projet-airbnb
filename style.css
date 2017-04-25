@@ -117,7 +117,7 @@ header select, input {
     background-color: white;
 }
 
-.nbvoyageur , .Destination , .Logements {
+.nbvoyageur  {
     display: flex;
 }
 
@@ -296,11 +296,18 @@ header .grandboutton , header label , header .menu1 {
 main {
   margin: 0 auto;
 }
+
+main button {
+  position: static;
+}
 figure {
   display: flex;
 
 }
-
+.image img {
+  padding: 5%;
+  width: 90%;
+}
 figcaption {
   display: flex;
 padding: 2%;
@@ -309,32 +316,45 @@ padding: 2%;
 }
 .estimer{
   display: flex;
-  padding: 15%;
+  padding: 5%;
+}
+.estimer-revenu{
+  padding: 5%,
 }
 
-
-.image img {
-  padding-left: 15%;
-}
 
 /****************************************partie footer*************************
 ******************************************************************************/
 
-footer ul  {
-
-  width: 100%;
+footer {
+  margin : 8% 1% auto;
+}
+.partone{
+  justify-content: space-around;
 }
 .littleico{
   margin: auto;
   width :35%;
   height: 20%;
-  
-}
 
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 1%;
+}
 .reseau ul {
   margin: 0 auto;
   width: 90%;
   margin: 10%;
 
 }
+}
+/****************************responsive phone *********************************
+******************************************************************************/
+
+@media (max-width: 760px) {
+
+
+
 }
