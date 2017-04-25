@@ -355,6 +355,32 @@ footer ul {
 
 @media (max-width: 760px) {
 
+  header img{
+    width: 10% ;
+  }
+h1 {
+  position: relative;
+left: 4%;
+font-weight: normal;
+width: 100%;
+margin-top: 4%;
+margin-bottom: 5%;
+font-size: 25px ;
+line-height: 30px ;
+letter-spacing: -0.6px ;
 
+}
+
+.recherche, .date{
+  border-right: none;
+  font-size: 15px ;
+}
+.nbvoyageur{
+  display: none;
+}
+header ul {
+  display: flex;
+
+}
 
 }
