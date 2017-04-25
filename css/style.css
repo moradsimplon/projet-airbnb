@@ -1,16 +1,11 @@
 * {
-
     color: #484848;
     font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
-
 /*****************************************************************************
 ****************************** debut style partie header*********************/
-
-
-
 
 header .barreduhaut {
     height: 16%;
@@ -34,7 +29,7 @@ header .menu1 {
 }
 
 .menu2 {
-  margin-left: 3%;
+    margin-left: 3%;
     margin-top: 5%;
     font-size: 12px;
     font-weight: 700;
@@ -117,7 +112,7 @@ header select, input {
     background-color: white;
 }
 
-.nbvoyageur  {
+.nbvoyageur {
     display: flex;
 }
 
@@ -141,52 +136,46 @@ button {
 }
 
 
-
 /**********************************************fin de partie header***********************************************
 ******************************************************************************************************************/
-
-
 
 
 /***************************************debut partie corps de pages************************************************
 *******************************************************************************************************************/
 
-
-main{
-  margin: 5% 1% auto;
+main {
+    margin: 5% 1% auto;
 }
 
 figure {
-  display: flex;
-
+    display: flex;
 }
 
 figcaption {
-  display: flex;
-  padding: 2%;
-  flex-direction: column;
-  margin: 1% auto;
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    margin: 1% auto;
 }
 
-
-
-
-.estimer{
-  margin-top: 5%;
-  justify-content: space-between;
-  display: flex;
+.estimer {
+    margin-top: 5%;
+    justify-content: space-between;
+    display: flex;
 }
- .estimer-revenu  {
 
-  width: 40%;
-  display: inline-block;
-  vertical-align: top;
+.estimer-revenu {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
 }
+
 .image {
-  display: inline-block;
+    display: inline-block;
 }
-.partie1{
-  font-size: 28px;
+
+.partie1 {
+    font-size: 28px;
     font-weight: 700;
     letter-spacing: -0.6px;
     line-height: 36px;
@@ -194,18 +183,18 @@ figcaption {
     padding-bottom: 2px;
     padding-top: 2px;
 }
+
 .partie2 {
-  margin-top: 2%;
-  font-size: 19px;
+    margin-top: 2%;
+    font-size: 19px;
     font-weight: 300;
     line-height: 24px;
-
-
     padding-bottom: 0;
     padding-top: 0;
 }
+
 main button {
-  background: #008489 none repeat scroll 0 0;
+    background: #008489 none repeat scroll 0 0;
     border: 2px solid transparent;
     border-radius: 4px;
     cursor: pointer;
@@ -217,36 +206,36 @@ main button {
     position: relative;
     width: auto;
     height: auto;
-   right: 60%;
+    right: 60%;
 }
-
 
 
 /******************partie bas footer *******************************
 *********************************************************************/
 
 footer {
-  margin: 8% 8% auto;
+    margin: 8% 8% auto;
 }
+
 
 /*************************1er partie footer **************************
 **************************************************************************/
 
-.partone
-{
-display: flex;
-justify-content: space-between;
+.partone {
+    display: flex;
+    justify-content: space-between;
 }
 
 .partone li {
-  list-style: none;
-  color: #767676;
+    list-style: none;
+    color: #767676;
 }
-.partone h3 {
-  text-align: center;
-}
-.partone select{
 
+.partone h3 {
+    text-align: center;
+}
+
+.partone select {
     background-color: white;
     border: 1px solid #aaa;
     border-radius: 2px;
@@ -259,150 +248,140 @@ justify-content: space-between;
     padding: 12px 40px 12px 12px;
     width: 100%;
 }
-.Airbnb , .Découvrir , .Hébergement {
-  width: 15%;
+
+.Airbnb, .Découvrir, .Hébergement {
+    width: 15%;
 }
+
 
 /************** 2eme partie footer **************************************
 ************************************************************************/
-.parttwo {
-  display: flex;
-  vertical-align: top;
 
+.parttwo {
+    display: flex;
+    vertical-align: top;
 }
+
 .littleico {
-  padding-top: 15px;
-  margin-right: 35%;
-  color: #767676;
+    padding-top: 15px;
+    margin-right: 35%;
+    color: #767676;
 }
 
 
 /********************responsive tablette********************************
 ***********************************************************************/
 
-@media ( max-width : 1024px) {
-
-
-  /*****************header********************************************
+@media ( max-width: 1024px) {
+    /*****************header********************************************
   *******************************************************************/
-
-header .grandboutton , header label , header .menu1 {
-  display: none;
-}
-
-
-/************************ partie corp (main)*************************
+    header .grandboutton, header label, header .menu1 {
+        display: none;
+    }
+    /************************ partie corp (main)*************************
 *********************************************************************/
-main {
-  margin: 0 auto;
-}
-
-main button {
-  position: static;
-}
-figure {
-  display: flex;
-
-}
-.image img {
-  padding: 5%;
-  width: 90%;
-}
-figcaption {
-  display: flex;
-padding: 2%;
-  flex-direction: column;
-  margin: 1% auto;
-}
-.estimer{
-  display: flex;
-  padding: 5%;
-}
-.estimer-revenu{
-  padding: 5%,
-}
-
-
-/****************************************partie footer*************************
+    main {
+        margin: 0 auto;
+    }
+    main button {
+        position: static;
+    }
+    figure {
+        display: flex;
+    }
+    .image img {
+        padding: 5%;
+        width: 90%;
+    }
+    figcaption {
+        display: flex;
+        padding: 2%;
+        flex-direction: column;
+        margin: 1% auto;
+    }
+    .estimer {
+        display: flex;
+        padding: 5%;
+    }
+    .estimer-revenu {
+        padding: 5%,
+    }
+    /****************************************partie footer*************************
 ******************************************************************************/
+    footer {
+        margin: 8% 1% auto;
+    }
+    .partone {
+        justify-content: space-around;
+    }
+    .littleico {
+        margin: auto;
+        width: 35%;
+        height: 20%;
+    }
+    footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 1%;
+    }
+    .reseau ul {
+        margin: 0 auto;
+        width: 90%;
+        margin: 10%;
+    }
+}
 
-footer {
-  margin : 8% 1% auto;
-}
-.partone{
-  justify-content: space-around;
-}
-.littleico{
-  margin: auto;
-  width :35%;
-  height: 20%;
 
-}
-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 1%;
-}
-.reseau ul {
-  margin: 0 auto;
-  width: 90%;
-  margin: 10%;
-
-}
-}
 /****************************responsive phone *********************************
 ******************************************************************************/
 
 @media (max-width: 760px) {
-
-
-/**********************************partie haut header*****************************
+    /**********************************partie haut header*****************************
 ***********************************************************************************/
-
-  header img{
-    width: 10% ;
-  }
-h1 {
-  position: relative;
-left: 4%;
-font-weight: normal;
-width: 100%;
-margin-top: 4%;
-margin-bottom: 5%;
-font-size: 25px ;
-line-height: 30px ;
-letter-spacing: -0.6px ;
-
-}
-
-.recherche, .date{
-  border-right: none;
-  font-size: 15px ;
-}
-.nbvoyageur{
-  display: none;
-}
-header ul {
-  display: flex;
-
-}
-
-/****************************************partie corp (main)****************************
+    header img {
+        width: 10%;
+    }
+    h1 {
+        position: relative;
+        left: 4%;
+        font-weight: normal;
+        width: 100%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: -0.6px;
+    }
+    .recherche, .date {
+        border-right: none;
+        font-size: 15px;
+    }
+    .nbvoyageur {
+        display: none;
+    }
+    header ul {
+        display: flex;
+    }
+    /****************************************partie corp (main)****************************
 **************************************************************************************/
-
-.estimer {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.estimer-revenu {
-  width: 100%;
-  vertical-align: top;
-}
-
-/*****************************************partie footer**********************************
+    .estimer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .estimer-revenu {
+        width: 100%;
+        vertical-align: top;
+    }
+    /*****************************************partie footer**********************************
 ***************************************************************************************/
-
-
-
-
+    .selecteur {
+        display: flex;
+    }
+    .Airbnb, .Découvrir, .Hébergement {
+        display: none;
+    }
+    .parttwo {
+        display: flex;
+        flex-direction: column;
+    }
 }
